@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="assets/css/bulma.css">
+	<link rel="stylesheet" href="assets/css/styles.css">
+	<title>Twitch Client</title>
+</head>
+<body>
+	<section class="section">
+		<div class="container">
+			<nav class="panel">
+				<p class="panel-heading has-text-centered">
+					<span class="icon is-left">
+						<i class="fa fa-twitch"></i>
+					</span>	Twitch Client for FreeCodeCamp | By Ch1nux Par1bus
+				</p>
+				<div class="panel-block">
+					<p class="control has-icons-left">
+						<input class="input search" type="text" placeholder="Search">
+						<span class="icon is-small is-left">
+							<i class="fa fa-search"></i>
+						</span>
+					</p>
+				</div>
+				<div class="panel-tabs">
+					<span class="button loader is-loading">&nbsp;</span>
+					<a id="reset" class="has-text-dark is-active">All</a>
+					<a id="online" class="has-text-primary">Online</a>
+					<a id="offline" class="has-text-grey-light">Offline</a>
+				</div>
+				<div id="userlist"></div>
+			</nav>
+		</div>
+	</section>
+	<script src="https://use.fontawesome.com/3c9c0ca0aa.js"></script>
+	<script src="assets/js/minified.js"></script>
+	<script src="assets/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+a {
+	text-decoration: none !important;
+}
+.panel-tabs a.is-active {
+	font-weight: bold;
+	border-bottom: 0.3em solid #353535;
+}
+.is-rounded {
+	border-radius: 50%;
+}
+.panel-block a:hover {
+	text-decoration: underline !important;
+}
+.loader {
+	background-color: transparent;
+	border: none;
+	margin: 0 1em 0.5em 0;
+}
